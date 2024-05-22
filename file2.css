@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('bg2.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+}
+
+#quote-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#quote {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background: url('quote.jpg') no-repeat center center; /* Replace 'quote-background.jpg' with your image path */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    color: white; /* Adjust text color for readability */
+}
+
+#author {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#generate-quote {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generate-quote:hover {
+    background-color: #0056b3;
+}
+
+#share-container {
+    margin-top: 20px;
+}
+
+#share-container a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#twitter-share {
+    background-color: #1DA1F2;
+}
+
+#facebook-share {
+    background-color: #3b5998;
+}
+
+#whatsapp-share {
+    background-color: #25D366;
+}
+
+#share-container a:hover {
+    opacity: 0.8;
+}
